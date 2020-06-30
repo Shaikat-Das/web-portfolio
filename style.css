@@ -1,0 +1,49 @@
+/*to remove default style following style added into body tag*/
+body{
+    margin:0; 
+    font-family: 'Roboto Slab', serif;
+}
+
+/* below style for top section*/
+.top-banner{
+    background-repeat: no-repeat; 
+    height: 650px;
+    background-image: url(images/top-banner.png);
+    border: 2px solid saddlebrown;
+}
+.half-width{
+    float: left; /* to place two div side by side*/
+    width: 40%; /* page width(40x2)(2.5x4)(2.5x4)=100%*/
+    margin: 2.5%;
+    padding: 2.5%;  
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.highlight{
+    color: orange;
+}
+p{
+    text-align: justify;
+    color: gray;
+    
+}
+
+.link-button{
+    text-decoration: none;
+    /*below style for gradient color of link buttonz*/
+    background-image: linear-gradient (78deg,#5a61183d, tomato);
+    background-color: orange;
+    padding: 10px 20px;
+    margin: 25px; /*(note: i want to increase the gap between paragraph and link button but it does not work)*/
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+}
+.image1{
+    width: 80%;
+}
